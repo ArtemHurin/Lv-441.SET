@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
         //Condition.getOdd();
         //Condition.getThreeDays();
-        Condition.getContinent();
+        //Condition.getContinent();
+        Condition.getProduct();
     }
 }

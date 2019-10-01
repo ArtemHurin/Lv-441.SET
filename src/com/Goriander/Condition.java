@@ -2,7 +2,9 @@ package com.Goriander;
 import java.util.Scanner;
 
 public class Condition {
-
+    /*
+     *Praktical tasks
+     */
     public static void getOdd ()
     {
         Scanner input = new Scanner(System.in);
@@ -106,7 +108,36 @@ public class Condition {
         }
     }
 
+    public static void getProduct()
+    {
+        Product[] products = new Product[3];
+        products[0] = new Product("Cheese",20,5);
+        products[1] = new Product("Water",10,8);
+        products[2] = new Product("Potato",2,4);
+
+        int bestquality=0;
+        int mostprice=0;
+
+        for(int i=1;i<3;i++)
+        {
+            if (products[i].getQuality()>products[bestquality].getQuality())
+            {
+                bestquality=i;
+            }
+            if (products[i].getPrice()>products[mostprice].getPrice())
+            {
+                mostprice=i;
+            }
+        }
+        System.out.printf("Best quality: %s. Most price: %s",
+                products[bestquality].getName(),
+                products[mostprice].getName());
+    }
+    /*
+     *Homework tasks
+     */
 }
+
 enum ContinentName
 {
     Asia,

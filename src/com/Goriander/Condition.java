@@ -136,6 +136,52 @@ public class Condition {
     /*
      *Homework tasks
      */
+    public static void taskOne()
+    {
+        Scanner in = new Scanner(System.in);
+        int min=2147483647; //minimal integer value
+        int max=-2147483648;
+        int intTmp;
+        double doubleTmp;
+
+        System.out.println("Введіть три числа з плаваючою комою:");
+        for(int i=0;i<3;i++)
+        {
+            doubleTmp = in.nextDouble();
+            if ((doubleTmp>-5.0) && (doubleTmp<5.0))
+            {
+                System.out.println("Це число входить в проміжок [-5,5]");
+            }
+            else
+            {
+                System.out.println("Це число не входить в проміжок [-5,5]");
+            }
+        }
+        System.out.println("Введіть три цілі числа:");
+        for(int i=0;i<3;i++)
+        {
+            intTmp=in.nextInt();
+            if (min>intTmp)
+            {
+                min=intTmp;
+            }
+            if (max<intTmp)
+            {
+                max=intTmp;
+            }
+        }
+        System.out.printf("Максимальне число: %d, Мінімальне число: %d",max,min);
+    }
+    public static void taskTwo()
+    {
+        System.out.println("Введіть код HTTP помилки (400-405):");
+        Scanner in = new Scanner(System.in);
+        String str = "E"+in.next();
+        errorHTTP errorDescription;
+        errorDescription = errorHTTP.valueOf(str);
+        str=errorDescription.get();
+        System.out.println(str);
+    }
 }
 
 enum ContinentName
@@ -147,6 +193,26 @@ enum ContinentName
     NorthAmerica,
     SouthAmerica,
     Antarctica
+}
+
+enum errorHTTP
+{
+    E400("Bad Request. The server did not understand the request."),
+    E401("Unauthorized. The requested page needs a username and a password."),
+    E402("Payment Required. You can not use this code yet."),
+    E403("Forbidden. Access is forbidden to the requested page."),
+    E404("Not Found. The server can not find the requested page."),
+    E405("Method Not Allowed. The method specified in the request is not allowed.");
+
+    private String _description;
+    errorHTTP(String description)
+    {
+        this._description=description;
+    }
+    public String get()
+    {
+        return _description;
+    }
 }
 
 

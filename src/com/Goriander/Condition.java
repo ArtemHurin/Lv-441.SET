@@ -1,5 +1,6 @@
 package com.Goriander;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Condition {
     /*
@@ -181,6 +182,31 @@ public class Condition {
         errorDescription = errorHTTP.valueOf(str);
         str=errorDescription.get();
         System.out.println(str);
+    }
+    /*
+     *Сreate class Dog with fields name, breed, age.
+     * Declare enum for field breed.
+     * Create 3 instances of type Dog.
+     * Check if there is no two dogs with the same name.
+     * Display the name and the kind of the oldest dog.
+     */
+    public static void taskThree()
+    {
+        Dog.Objects.add(new Dog("Barbos",BREED.LABLADOR,3));
+        Dog.Objects.add(new Dog("Bima",BREED.PITBULL,4));
+        Dog.Objects.add(new Dog("Reks",BREED.PUDEL,5));
+        Dog.Objects.add(new Dog("Vasya",BREED.PUDEL,2));
+
+        for (Dog i : Dog.Objects)
+        {
+            for (Dog j : Dog.Objects)
+            {
+                if((i.getBreed()==j.getBreed()) && (i.equals(j)==false))
+                {
+                    System.out.printf("Dog %s has same breed as dog %s \n",i.getName(),j.getName());
+                }
+            }
+        }
     }
 }
 

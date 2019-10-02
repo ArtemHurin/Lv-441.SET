@@ -10,6 +10,9 @@ public class Main {
         //Condition.getProduct();
         //Condition.taskOne();
         //Condition.taskTwo();
-        LA.taskOne();
+        Condition.taskThree();
+        //LA.taskOne();
+        //LA.taskTwo();
+
     }
 }

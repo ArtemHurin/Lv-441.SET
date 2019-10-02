@@ -9,6 +9,7 @@ public class Main {
         //Condition.getContinent();
         //Condition.getProduct();
         //Condition.taskOne();
-        Condition.taskTwo();
+        //Condition.taskTwo();
+        LA.taskOne();
     }
 }

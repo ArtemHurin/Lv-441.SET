@@ -173,6 +173,7 @@ public class Condition {
         }
         System.out.printf("Максимальне число: %d, Мінімальне число: %d",max,min);
     }
+
     public static void taskTwo()
     {
         System.out.println("Введіть код HTTP помилки (400-405):");

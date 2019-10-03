@@ -1,20 +1,29 @@
 package com.Goriander;
-import java.util.Scanner;
-import java.util.ArrayList;
+/*
+ * @author Goriander
+ */
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class Condition {
     /*
-     *Praktical tasks
+     * Practical tasks
+     * Task one:
+     * Enter three numbers. Find out how many of them are odd.
      */
-    public static void getOdd ()
+    public void practicalTaskOne ()
     {
-        Scanner input = new Scanner(System.in);
+        //define
         int[] threeNumbers = new int[3];
-        System.out.println("Enter three numbers: ");
-        threeNumbers[0] = input.nextInt();
-        threeNumbers[1] = input.nextInt();
-        threeNumbers[2] = input.nextInt();
 
+        //Data input
+        System.out.println("Enter three numbers: ");
+        for(int i=0;i<threeNumbers.length;i++)
+        {
+            threeNumbers[i]=readInt();
+        }
+
+        //Data processing and output
         for(int i=0;i<3;i++)
         {
             if (threeNumbers[i] % 2 > 0)
@@ -26,55 +35,68 @@ public class Condition {
                 System.out.printf("\n %d in not a odd",threeNumbers[i]);
             }
         }
-
     }
 
-    public static void getThreeDays()
+    /*
+     * Practical task two:
+     * Enter the number of the day of the week.
+     * Display the name in three languages.
+     */
+    public void practicalTaskTwo()
     {
+        //Define
+        int day;
 
-        Scanner input = new Scanner(System.in);
+        //Data input
         System.out.println("Введіть назву дня: ");
-        String str = input.nextLine();
+        day=readInt();
 
-        switch(str)
+        //Data processing and output
+        switch(day)
         {
-            case "Monday":
+            case 1:
                 System.out.println("Понеділок, Понедельник, Monday");
                 break;
-
-            case "Tuesday":
-                System.out.println("bla bla");
+            case 2:
+                System.out.println("Вівторок, Вторник, Tuesday");
                 break;
 
-            case "Wednesday":
-                System.out.println("bla bla");
+            case 3:
+                System.out.println("Середа, Среда, Wednesday");
                 break;
 
-            case "Thursday":
-                System.out.println("bla bla");
+            case 4:
+                System.out.println("Четвер, Четверг, Thursday");
                 break;
 
-            case "Friday":
-                System.out.println("bla bla");
+            case 5:
+                System.out.println("П'ятниця, Пятница, Friday");
                 break;
 
-            case "Saturday":
-                System.out.println("bla bla");
+            case 6:
+                System.out.println("Субота, Суббота, Saturday");
                 break;
 
-            case "Sunday":
-                System.out.println("bla bla");
+            case 7:
+                System.out.println("Неділя, Воскресенье, Sunday");
                 break;
 
             default:
-                System.out.println("Ви ввели некоректне значення, попробуйте знову.");
-                getThreeDays();
+                System.out.println("Wrong parameter, please try again");
+                practicalTaskTwo();
         }
-
     }
 
-    public static void getContinent()
+    /*
+     * Practical task three:
+     * Enter the name of the country.
+     * Print the name of the continent.
+     * (Declare enum with names of continents)
+     */
+    public void practicalTaskThree()
     {
+        //Define
+        String country;
         String[][] Continents = new String[7][];
         Continents[0] = new String[] {"China","India","Pakistan"};
         Continents[1] = new String[] {"Egypt", "Congo"};
@@ -84,30 +106,35 @@ public class Condition {
         Continents[5] = new String[] {"Brasilia","Chili"};
         Continents[6] = new String[] {"Science station"};
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Введіть назву країни: ");
-        String str = input.next();
+        //Data input
+        System.out.println("Write the country name: ");
+        country = readString();
 
-
-        boolean finded=false;
+        //Data processing
+        String finded="";
         ContinentName[] ContinentNames = ContinentName.values();
-        for(int i=0;i<Continents.length && !finded;i++)
+        for(int i=0;i<Continents.length && finded.equals("");i++)
         {
-            for(int j=0;j<Continents[i].length && !finded;j++)
+            for(int j=0;j<Continents[i].length && finded.equals("");j++)
             {
-                if (str.equals(Continents[i][j]))
+                if (country.equals(Continents[i][j]))
                 {
-                    System.out.println("Континент данної країни: "+ContinentNames[i]);
-                    finded=true;
+                    finded=ContinentNames[i].toString();
                 }
             }
         }
 
-        if (!finded)
+        //Data output
+        if (!finded.equals(""))
         {
-            System.out.println("Нажаль вашу країну не ідентифіковано, попробуйте ще раз");
+            System.out.printf("Your continent: %s",finded);
+        }
+        else
+        {
+            System.out.println("Unfortunately your country is not identified, please try again");
         }
     }
+
 
     public static void getProduct()
     {
@@ -116,14 +143,14 @@ public class Condition {
         products[1] = new Product("Water",10,8);
         products[2] = new Product("Potato",2,4);
 
-        int bestquality=0;
+        int bestquantity=0;
         int mostprice=0;
 
         for(int i=1;i<3;i++)
         {
-            if (products[i].getQuality()>products[bestquality].getQuality())
+            if (products[i].getQuality()>products[bestquantity].getQuality())
             {
-                bestquality=i;
+                bestquantity=i;
             }
             if (products[i].getPrice()>products[mostprice].getPrice())
             {
@@ -131,7 +158,7 @@ public class Condition {
             }
         }
         System.out.printf("Best quality: %s. Most price: %s",
-                products[bestquality].getName(),
+                products[bestquantity].getName(),
                 products[mostprice].getName());
     }
     /*
@@ -206,6 +233,73 @@ public class Condition {
                 {
                     System.out.printf("Dog %s has same breed as dog %s \n",i.getName(),j.getName());
                 }
+            }
+        }
+    }
+
+    //BufferedReader
+    private String readString()
+    {
+        String result;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        while(true)
+        {
+            try
+            {
+                var tmp = br.readLine();
+                if  (tmp.equals(""))
+                {
+                    throw new Exception("Empty field");
+                }
+                else
+                {
+                    result=tmp;
+                    return result;
+                }
+            }
+            catch(Exception ex)
+            {
+                System.out.println("Wrong parameter please try again");
+            }
+        }
+    }
+
+    private int readInt()
+    {
+        int result;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        while(true)
+        {
+            try
+            {
+                var tmp = br.readLine();
+                result = Integer.parseInt(tmp);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                System.out.println("Wrong parameter, please try again");
+            }
+        }
+    }
+
+    private double readDouble()
+    {
+        double result;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        while(true)
+        {
+            try
+            {
+                var tmp = br.readLine();
+                result = Double.parseDouble(tmp);
+                return result;
+            }
+            catch(Exception ex)
+            {
+                System.out.println("Wrong argument please try again.");
             }
         }
     }

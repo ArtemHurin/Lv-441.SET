@@ -2,16 +2,16 @@ package com.Goriander;
 
 public class Product {
     private String _name;
-    private int _price, _quality;
+    private int _price, _quantity;
     Product(String name, int price, int quality)
     {
         this._name=name;
         this._price=price;
-        this._quality=quality;
+        this._quantity=quality;
     }
     int getQuality()
     {
-        return _quality;
+        return _quantity;
     }
     int getPrice()
     {
@@ -23,7 +23,7 @@ public class Product {
     }
     void setQuality(int quality)
     {
-        _quality=quality;
+        _quantity=quality;
     }
     void setPrice(int price)
     {

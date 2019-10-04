@@ -135,8 +135,14 @@ public class Condition {
         }
     }
 
-
-    public static void getProduct()
+    /*
+     * Practical task four:
+     * Create class Product with fields name, price and quantity.
+     * Create four instances of type Product.
+     * Display the name and quantity of the most expensive item.
+     * Display the name of the items, which has the biggest quantity.
+     */
+    public void practicalTaskFour()
     {
         Product[] products = new Product[3];
         products[0] = new Product("Cheese",20,5);
@@ -161,21 +167,27 @@ public class Condition {
                 products[bestquantity].getName(),
                 products[mostprice].getName());
     }
+
     /*
-     *Homework tasks
+     * Homework tasks
+     * Task one, solve the next tasks:
+     * read 3 float numbers and check: are they all belong to the range [-5,5];
+     * read 3 integer numbers and write max and min of them;
+     * read number of HTTP Error (400, 401,402, ...) and write the name of this error (Declare enum HTTPError)
      */
-    public static void taskOne()
+    public void homeworkTaskOne()
     {
-        Scanner in = new Scanner(System.in);
+        //Declaration and initialization
         int min=2147483647; //minimal integer value
-        int max=-2147483648;
+        int max=-2147483648; //maximal integer value
         int intTmp;
         double doubleTmp;
 
+        //Data input and processing
         System.out.println("Введіть три числа з плаваючою комою:");
         for(int i=0;i<3;i++)
         {
-            doubleTmp = in.nextDouble();
+            doubleTmp = readDouble();
             if ((doubleTmp>-5.0) && (doubleTmp<5.0))
             {
                 System.out.println("Це число входить в проміжок [-5,5]");
@@ -188,7 +200,7 @@ public class Condition {
         System.out.println("Введіть три цілі числа:");
         for(int i=0;i<3;i++)
         {
-            intTmp=in.nextInt();
+            intTmp=readInt();
             if (min>intTmp)
             {
                 min=intTmp;
@@ -201,15 +213,29 @@ public class Condition {
         System.out.printf("Максимальне число: %d, Мінімальне число: %d",max,min);
     }
 
-    public static void taskTwo()
+    /*
+     * Homework task two:
+     * Сreate class Dog with fields name, breed, age.
+     * Declare enum for field breed.
+     * Create 3 instances of type Dog.
+     * Check if there is no two dogs with the same name.
+     * Display the name and the kind of the oldest dog.
+     */
+    public void homeworkTaskTwo()
     {
         System.out.println("Введіть код HTTP помилки (400-405):");
-        Scanner in = new Scanner(System.in);
-        String str = "E"+in.next();
+
+        //Read error code
+        String str = "E"+readString();
+
+        //Create enum object
         errorHTTP errorDescription;
+
+        //Get code value
         errorDescription = errorHTTP.valueOf(str);
-        str=errorDescription.get();
-        System.out.println(str);
+
+        //Print error message
+        System.out.println(errorDescription.get());
     }
     /*
      *Сreate class Dog with fields name, breed, age.
@@ -218,7 +244,7 @@ public class Condition {
      * Check if there is no two dogs with the same name.
      * Display the name and the kind of the oldest dog.
      */
-    public static void taskThree()
+    public void homeworkTaskThree()
     {
         Dog.Objects.add(new Dog("Barbos",BREED.LABLADOR,3));
         Dog.Objects.add(new Dog("Bima",BREED.PITBULL,4));

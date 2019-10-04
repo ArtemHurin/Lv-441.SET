@@ -12,13 +12,14 @@ public class Main {
         //obj.homeworkTaskThree();
 
         Condition obj = new Condition();
-        //obj.getOdd();
-        //obj.getThreeDays();
-        //obj.getContinent();
-        //obj.getProduct();
-        //obj.taskOne();
-        //obj.taskTwo();
-        //obj.taskThree();
+        //obj.practicalTaskOne();
+        //obj.practicalTaskTwo();
+        //obj.practicalTaskThree();
+        obj.practicalTaskFour();
+        //obj.homeworkTaskOne();
+        //obj.homeworkTaskTwo();
+        //obj.homeworkTaskTwo();
+        //obj.homeworkTaskThree();
 
         //LA.taskOne();
         //LA.taskTwo();

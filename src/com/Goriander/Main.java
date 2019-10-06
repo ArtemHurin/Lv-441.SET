@@ -11,18 +11,25 @@ public class Main {
         //obj.homeworkTaskTwo();
         //obj.homeworkTaskThree();
 
-        Condition obj = new Condition();
+        //Condition obj = new Condition();
         //obj.practicalTaskOne();
         //obj.practicalTaskTwo();
         //obj.practicalTaskThree();
-        obj.practicalTaskFour();
+        //obj.practicalTaskFour();
         //obj.homeworkTaskOne();
         //obj.homeworkTaskTwo();
         //obj.homeworkTaskTwo();
         //obj.homeworkTaskThree();
 
-        //LA.taskOne();
-        //LA.taskTwo();
+        //LA obj = new LA();
+        //obj.taskOne();
+        //obj.taskTwo();
+        //obj.homeworkTaskOne();
+        //obj.homeworkTaskTwo();
+        //obj.homeworkTaskThree();
 
+        OOP obj = new OOP();
+        //obj.taskOne();
+        obj.taskTwo();
     }
 }

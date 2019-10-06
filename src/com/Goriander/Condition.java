@@ -4,6 +4,7 @@ package com.Goriander;
  */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class Condition {
     /*
@@ -246,14 +247,17 @@ public class Condition {
      */
     public void homeworkTaskThree()
     {
+        //Declaration and initialization
         Dog.Objects.add(new Dog("Barbos",BREED.LABLADOR,3));
         Dog.Objects.add(new Dog("Bima",BREED.PITBULL,4));
         Dog.Objects.add(new Dog("Reks",BREED.PUDEL,5));
         Dog.Objects.add(new Dog("Vasya",BREED.PUDEL,2));
+        //Clone static array;
+        ArrayList<Dog> Dogs = (ArrayList<Dog>)Dog.Objects.clone();
 
-        for (Dog i : Dog.Objects)
+        for (Dog i : Dogs)
         {
-            for (Dog j : Dog.Objects)
+            for (Dog j : Dogs)
             {
                 if((i.getBreed()==j.getBreed()) && (i.equals(j)==false))
                 {
@@ -261,6 +265,21 @@ public class Condition {
                 }
             }
         }
+
+        //Find the older dog
+        Dog maxIndex=Dog.Objects.get(0);
+        for(Dog i: Dog.Objects)
+        {
+            if (maxIndex.getAge()<i.getAge())
+            {
+                maxIndex=i;
+            }
+        }
+
+        System.out.printf("The older dog is %s, breed - %s, age - %d \n",
+                maxIndex.getName(),maxIndex.getBreed().toString(),maxIndex.getAge());
+
+
     }
 
     //BufferedReader

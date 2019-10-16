@@ -82,10 +82,12 @@ public class LA {
     {
         //Declaration and initialization
         Eemployee e1 = new Eemployee("Petro", 1, 300);
-        Eemployee e2 =new Eemployee("Vova", 1, 300);
-        Eemployee e3 =new Eemployee("Vasya", 2, 600);
-        Eemployee e4 =new Eemployee("Ivan", 1, 600);
-        Eemployee e5 =new Eemployee("Ira", 2, 700);
+        Eemployee e2 =new Eemployee("Ivan", 1, 600);
+        Eemployee e3 =new Eemployee("Vova", 1, 300);
+        Eemployee e4 =new Eemployee("Ira", 2, 700);
+        Eemployee e5 =new Eemployee("Vasya", 2, 600);
+
+
 
         //Find department
         System.out.println("Enter the department number:");
@@ -103,6 +105,9 @@ public class LA {
         {
             System.out.println("No employee for this department index.");
         }
+
+        //Max Salary
+        System.out.printf("Max Salary: %d \n",Eemployee.maxSalary);
 
         //Sort
         Eemployee maxIndex;//=Employee.Objects.get(0);

@@ -1,5 +1,9 @@
 package com.Goriander;
 
+import Demo2.Inheritance;
+import Queue.Search;
+import Queue.SimpleQueue;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -28,8 +32,18 @@ public class Main {
         //obj.homeworkTaskTwo();
         //obj.homeworkTaskThree();
 
-        OOP obj = new OOP();
+        //OOP obj = new OOP();
         //obj.taskOne();
-        obj.taskTwo();
+        //obj.taskTwo();
+
+        //Inheritance obj = new Inheritance();
+        //obj.practicalTaskOne();
+        //obj.practicalTaskTwo();
+
+        //Search obj = new Search(3,2,7,3);
+
+        SimpleQueue obj = new SimpleQueue();
+        obj.Simple();
+
     }
 }

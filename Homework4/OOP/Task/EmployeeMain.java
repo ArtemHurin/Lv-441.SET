@@ -21,8 +21,8 @@ public class EmployeeMain {
         /**
          * print info about employees
          */
-        for (int i = 0; i < employee.length; i++) {
-            employee[i].print();
+        for (Employee value : employee) {
+            value.print();
         }
 
         /**

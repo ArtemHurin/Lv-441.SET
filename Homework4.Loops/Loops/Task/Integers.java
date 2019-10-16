@@ -1,4 +1,4 @@
-package edu.Lv441.Loops.Task;
+package com.company.Homework4.Loops.src.edu.Lv441.Loops.Task;
 
 public class Integers {
 
@@ -15,7 +15,7 @@ public class Integers {
 		}
 
 		for (int i = 0; i < integers.length; i++) {
-			if (integers[i] >= 0) {
+			if (integers[i] > 0) {
 				sum += integers[i];
 				amountPos++;
 			}

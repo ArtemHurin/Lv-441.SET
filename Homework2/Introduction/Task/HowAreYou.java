@@ -1,4 +1,4 @@
-package edu.Lv441.Introduction.Task;
+package com.company.Homework2.src.edu.Lv441.Introduction.Task;
 
 import java.io.BufferedReader;
 import java.io.IOException;

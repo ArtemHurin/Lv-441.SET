@@ -1,76 +1,90 @@
-package edu.Lv441.Loops.Task;
+package com.company.Homework4.Loops.src.edu.Lv441.Loops.Task;
 
 public class Employee {
-	private String name;
-	private int department;
-	private int salary;
 
-	public Employee(String name, int department, int salary) {
-		this.name = name;
-		this.department = department;
-		this.salary = salary;
-	}
+    private String name;
+    private int department;
+    private int salary;
 
-	public String getName() {
-		return name;
-	}
+    public Employee(String name, int department, int salary) {
+        this.name = name;
+        this.department = department;
+        this.salary = salary;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getDepartment() {
-		return department;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setDepartment(int department) {
-		this.department = department;
-	}
+    public int getDepartment() {
+        return department;
+    }
 
-	public int getSalary() {
-		return salary;
-	}
+    public void setDepartment(int department) {
+        this.department = department;
+    }
 
-	public void setSalary(int salary) {
-		this.salary = salary;
-	}
+    public int getSalary() {
+        return salary;
+    }
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + department;
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + salary;
-		return result;
-	}
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Employee other = (Employee) obj;
-		if (department != other.department)
-			return false;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
-		if (salary != other.salary)
-			return false;
-		return true;
-	}
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + department;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        result = prime * result + salary;
+        return result;
+    }
 
-	@Override
-	public String toString() {
-		return "Employee [name=" + name + ", department=" + department + ", salary=" + salary + "]";
-	}
-	
-	
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Employee other = (Employee) obj;
+        if (department != other.department)
+            return false;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        if (salary != other.salary)
+            return false;
+        return true;
+    }
 
+    @Override
+    public String toString() {
+        return "Employee [name=" + name + ", department=" + department + ", salary=" + salary + "]";
+    }
+
+    //Employee[] employee = new Employee[5];
+
+
+    /*public void checkSameDepartment() throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int dep = Integer.parseInt(br.readLine());
+        for (int i = 0; i < employee.length; i++) {
+            if (dep == employee[i].department) {
+                System.out.println(employee[i]);
+            }
+        }*/
 }
+
+
+
+

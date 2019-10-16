@@ -1,4 +1,4 @@
-package edu.Lv441.Conditions.Task;
+package com.company.Homework3.Conditions.src.edu.Lv441.Conditions.Task;
 
 import java.io.BufferedReader;
 import java.io.IOException;

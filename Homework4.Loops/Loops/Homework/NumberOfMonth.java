@@ -1,4 +1,4 @@
-package edu.Lv441.Loops.Homework;
+package com.company.Homework4.Loops.src.edu.Lv441.Loops.Homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;

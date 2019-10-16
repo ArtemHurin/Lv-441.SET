@@ -1,4 +1,4 @@
-package edu.Lv441.Loops.Homework;
+package com.company.Homework4.Loops.src.edu.Lv441.Loops.Homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class CarMain {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
+		Car tmp;
 		Car[] car = new Car[4];
 		car[0] = new Car("BMW", 2018, 3.0);
 		car[1] = new Car("Audi", 2019, 2.5);
@@ -23,7 +24,6 @@ public class CarMain {
 			}
 		}
 
-		Car tmp;
 		for (int i = 0; i < car.length - 1; i++) {
 			for (int j = i + 1; j < car.length; j++) {
 				if (car[i].getYear() > car[j].getYear()) {
@@ -34,8 +34,8 @@ public class CarMain {
 			}
 
 		}
-		for (Car i : car) {
-			System.out.println(i);
+		for (int i = 0; i<car.length; i++) {
+			System.out.println(car[i]);
 		}
 	}
 

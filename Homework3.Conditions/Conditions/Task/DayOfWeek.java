@@ -1,4 +1,4 @@
-package edu.Lv441.Conditions.Task;
+package com.company.Homework3.Conditions.src.edu.Lv441.Conditions.Task;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,25 +16,25 @@ public class DayOfWeek {
 
 		switch (day) {
 		case 1:
-			System.out.println("Monday, Montag, Понеділок");
+			System.out.println("Monday, Montag, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 			break;
 		case 2:
-			System.out.println("Tuesday, Dienstag, Вівторок");
+			System.out.println("Tuesday, Dienstag, ВіпїЅпїЅпїЅпїЅпїЅпїЅ");
 			break;
 		case 3:
-			System.out.println("Wednesday, Mittwoch, Середа");
+			System.out.println("Wednesday, Mittwoch, пїЅпїЅпїЅпїЅпїЅпїЅ");
 			break;
 		case 4:
-			System.out.println("Thursday, Donnerstag, Четвер");
+			System.out.println("Thursday, Donnerstag, пїЅпїЅпїЅпїЅпїЅпїЅ");
 			break;
 		case 5:
-			System.out.println("Friday, Freitag, П'ятниця");
+			System.out.println("Friday, Freitag, пїЅ'пїЅпїЅпїЅпїЅпїЅпїЅ");
 			break;
 		case 6:
-			System.out.println("Saturday, Samstag, Субота");
+			System.out.println("Saturday, Samstag, пїЅпїЅпїЅпїЅпїЅпїЅ");
 			break;
 		case 7:
-			System.out.println("Sunday, Sonntag, Неділя");
+			System.out.println("Sunday, Sonntag, пїЅпїЅпїЅпїЅпїЅ");
 			break;
 		default:
 			System.out.println("Wrong number of the day of the week");

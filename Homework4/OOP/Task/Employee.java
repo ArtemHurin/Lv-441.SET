@@ -5,7 +5,6 @@
  * Package for homework of OOP
  */
 
-
 package com.company.Homework4.OOP.Task;
 
 /**
@@ -59,10 +58,15 @@ public class Employee {
         this.name = name;
         this.rate = rate;
         this.hours = hours;
-        totalSum -= this.salary + this.bonus;
         this.counting();
     }
 
+    /**
+     * method that print total salary.
+     */
+    public static void getTotalSum() {
+        System.out.printf("The total salary of all workers is %.2f", totalSum);
+    }
 
     /**
      * getter for name.
@@ -113,13 +117,6 @@ public class Employee {
     }
 
     /**
-     * method that print total salary.
-     */
-    public static void getTotalSum() {
-        System.out.printf("The total salary of all workers is %.2f", totalSum);
-    }
-
-    /**
      * method that call counting salary, bonus and total salary
      */
     private void counting() {
@@ -132,18 +129,20 @@ public class Employee {
      * method to count salary.
      */
     private double getEmployeeSalary() {
-        return rate * hours;
+        salary = rate * hours;
+        return salary;
     }
 
     /**
      * method to count bonus.
      */
     private double getEmployeeBonuses() {
-        return salary * 0.1;
+        bonus = salary * 0.1;
+        return bonus;
     }
 
     /**
-     * method to print all employees.
+     * method to print employees.
      */
     public void print() {
         System.out.printf("Name = %s rate = %.2f hours = %.2f salary = %.2f bonus = %.2f%n",

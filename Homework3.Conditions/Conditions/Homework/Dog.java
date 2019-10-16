@@ -1,4 +1,4 @@
-package edu.Lv441.Conditions.Homework;
+package com.company.Homework3.Conditions.src.edu.Lv441.Conditions.Homework;
 
 public class Dog implements DogBreed {
 	private String name;

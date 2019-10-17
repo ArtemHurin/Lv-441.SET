@@ -3,10 +3,11 @@ package com.Goriander.Individual;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public interface consoleIO {
 
-     default String readString() {
+     static String readString() {
         String result;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while(true)
@@ -31,7 +32,7 @@ public interface consoleIO {
         }
     }
 
-    default int readInt()
+    static int readInt()
     {
         int result;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -51,7 +52,7 @@ public interface consoleIO {
         }
     }
 
-    default double readDouble()
+    static double readDouble()
     {
         double result;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -71,15 +72,16 @@ public interface consoleIO {
         }
     }
 
-    default LocalDate readDate() {
+    static LocalDate readDate() {
         LocalDate result;
+        DateTimeFormatter dtFormat =  DateTimeFormatter.ofPattern("dd-mm-yyyy");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while(true)
         {
             try
             {
                 var tmp = br.readLine();
-                result = LocalDate.parse(tmp);
+                result = LocalDate.parse(tmp, dtFormat);
                 return result;
             }
             catch(Exception DateTimeParseException)

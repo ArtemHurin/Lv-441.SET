@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dea0d68-7869-47ae-83de-59c41b60d701" name="Default Changelist" comment="">
+    <list default="true" id="6dea0d68-7869-47ae-83de-59c41b60d701" name="Default Changelist" comment="Trying use git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md.txt" afterDir="false" />
     </list>
@@ -59,7 +59,16 @@
   </component>
   <component name="ProjectId" id="1SKbwpOYR2DhI4f0pWQziC1Ihs6" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaBook" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Lv-441.SET" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Lv-441.SET\JavaBook" />
+      <recent name="C:\Users\Admin\Desktop\Lv-441.SET" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571316361376</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trying use git">
+      <created>1571317332109</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571317332109</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Trying use git">
+      <created>1571317480709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571317480709</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

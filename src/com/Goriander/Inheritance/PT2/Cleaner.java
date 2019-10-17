@@ -1,10 +1,12 @@
-package Demo2;
+package com.Goriander.Inheritance.PT2;
+
+import com.Goriander.Inheritance.PT2.Staff;
 
 public class Cleaner extends Staff {
 
     final String TYPE_PERSON = "Cleaner";
 
-    Cleaner(String name)
+    public Cleaner(String name)
     {
         super(name);
         System.out.printf("My profession is %s \n",TYPE_PERSON);

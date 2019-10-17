@@ -1,6 +1,8 @@
-package Demo2;
+package com.Goriander.Inheritance.PT1;
 
-public class Cat extends Animals{
+import com.Goriander.Inheritance.PT1.Animals;
+
+public class Cat extends Animals {
 
     @Override
     public void Voice() {

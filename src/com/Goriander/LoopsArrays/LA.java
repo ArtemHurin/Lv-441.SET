@@ -1,9 +1,8 @@
-package com.Goriander;
+package com.Goriander.LoopsArrays;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Random;
-import java.util.Scanner;
 
 /**
  * Loops, Arrays - homework

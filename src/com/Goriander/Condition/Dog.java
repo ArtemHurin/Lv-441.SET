@@ -1,4 +1,4 @@
-package com.Goriander;
+package com.Goriander.Condition;
 
 import java.util.ArrayList;
 

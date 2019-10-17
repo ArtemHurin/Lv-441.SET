@@ -1,4 +1,4 @@
-package com.Goriander;
+package com.Goriander.OOP;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

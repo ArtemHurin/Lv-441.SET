@@ -1,4 +1,4 @@
-package com.Goriander;
+package com.Goriander.OOP;
 
 public class Employee {
     /**Class Employee should consists of

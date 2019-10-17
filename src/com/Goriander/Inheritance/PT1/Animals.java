@@ -1,4 +1,6 @@
-package Demo2;
+package com.Goriander.Inheritance.PT1;
+
+import com.Goriander.Inheritance.PT1.Animal;
 
 public class Animals implements Animal {
 

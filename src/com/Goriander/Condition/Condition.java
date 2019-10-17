@@ -1,7 +1,9 @@
-package com.Goriander;
+package com.Goriander.Condition;
 /*
  * @author Goriander
  */
+import com.Goriander.Condition.BREED;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -248,7 +250,7 @@ public class Condition {
     public void homeworkTaskThree()
     {
         //Declaration and initialization
-        Dog.Objects.add(new Dog("Barbos",BREED.LABLADOR,3));
+        Dog.Objects.add(new Dog("Barbos", BREED.LABLADOR,3));
         Dog.Objects.add(new Dog("Bima",BREED.PITBULL,4));
         Dog.Objects.add(new Dog("Reks",BREED.PUDEL,5));
         Dog.Objects.add(new Dog("Vasya",BREED.PUDEL,2));

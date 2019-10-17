@@ -1,4 +1,4 @@
-package Demo2;
+package com.Goriander.Inheritance.HW1;
 
 public abstract class Bird {
     String _feathers;

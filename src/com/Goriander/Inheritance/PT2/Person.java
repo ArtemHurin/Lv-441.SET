@@ -1,10 +1,10 @@
-package Demo2;
+package com.Goriander.Inheritance.PT2;
 
 public abstract class Person {
 
     String _name;
 
-    Person(String name)
+    public Person(String name)
     {
         _name=name;
     }

@@ -1,10 +1,12 @@
-package Demo2;
+package com.Goriander.Inheritance.PT2;
+
+import com.Goriander.Inheritance.PT2.Staff;
 
 public class Teacher extends Staff {
 
     final String TYPE_PERSON = "Teacher";
 
-    Teacher(String name)
+    public Teacher(String name)
     {
         super(name);
         System.out.printf("My profession is %s \n",TYPE_PERSON);

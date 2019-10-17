@@ -1,4 +1,4 @@
-package com.Goriander;
+package com.Goriander.Condition;
 
 public class Product {
     private String _name;

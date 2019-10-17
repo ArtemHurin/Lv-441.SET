@@ -1,8 +1,10 @@
-package Demo2;
+package com.Goriander.Inheritance.PT2;
+
+import com.Goriander.Inheritance.PT2.Person;
 
 public class Student extends Person {
 
-    Student(String name)
+    public Student(String name)
     {
         super(name);
     }

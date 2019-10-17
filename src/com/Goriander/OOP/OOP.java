@@ -1,4 +1,4 @@
-package com.Goriander;
+package com.Goriander.OOP;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -38,7 +38,7 @@ public class OOP {
         }
 
         //Data output
-        System.out.printf("Total salary of all workers: %.2f",Employee.totalSum);
+        System.out.printf("Total salary of all workers: %.2f", Employee.totalSum);
     }
 
     /**

@@ -1,4 +1,9 @@
-package Demo2;
+package com.Goriander.Inheritance;
+
+import com.Goriander.Inheritance.PT1.Animals;
+import com.Goriander.Inheritance.PT1.Cat;
+import com.Goriander.Inheritance.PT1.Dog;
+import com.Goriander.Inheritance.PT2.*;
 
 public class Inheritance {
 

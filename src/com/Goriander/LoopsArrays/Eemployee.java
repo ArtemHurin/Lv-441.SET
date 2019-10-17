@@ -1,4 +1,4 @@
-package com.Goriander;
+package com.Goriander.LoopsArrays;
 
 import java.util.ArrayList;
 

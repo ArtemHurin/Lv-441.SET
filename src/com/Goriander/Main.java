@@ -1,7 +1,5 @@
 package com.Goriander;
 
-import Demo2.Inheritance;
-import Queue.Search;
 import Queue.SimpleQueue;
 
 public class Main {

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dea0d68-7869-47ae-83de-59c41b60d701" name="Default Changelist" comment="Trying use git">
+    <list default="true" id="6dea0d68-7869-47ae-83de-59c41b60d701" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +35,10 @@
     <favorite-branches>
       <branch-storage>
         <map>
-          <entry type="REMOTE">
+          <entry type="LOCAL">
             <value>
               <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/Oleg-Decik" />
+                <branch-info repo="$PROJECT_DIR$" source="Oleg-Decik" />
               </list>
             </value>
           </entry>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571316215193</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Trying use git">
+      <created>1571316361376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571316361376</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +217,11 @@
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/Oleg-Decik" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Oleg-Decik" />
                 </option>
               </RecentGroup>
               <RecentGroup>

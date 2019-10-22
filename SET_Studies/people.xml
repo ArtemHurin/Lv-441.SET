@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Student">
+    <void property="birthday">
+     <string>12-05-1985</string>
+    </void>
+    <void property="firstName">
+     <string>Mariya</string>
+    </void>
+    <void property="lastName">
+     <string>Akunenko</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN1236262</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Employee">
+    <void property="birthday">
+     <string>03-03-1975</string>
+    </void>
+    <void property="employmentDate">
+     <string>13-06-2018</string>
+    </void>
+    <void property="firstName">
+     <string>Iryna</string>
+    </void>
+    <void property="lastName">
+     <string>Avramenko</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN7464532</string>
+    </void>
+    <void property="wage">
+     <double>700.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Employee">
+    <void property="birthday">
+     <string>23-03-1990</string>
+    </void>
+    <void property="employmentDate">
+     <string>13-06-2018</string>
+    </void>
+    <void property="firstName">
+     <string>Roman</string>
+    </void>
+    <void property="lastName">
+     <string>Fedoryshyn</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN7365257</string>
+    </void>
+    <void property="wage">
+     <double>1500.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Student">
+    <void property="birthday">
+     <string>12-12-2000</string>
+    </void>
+    <void property="firstName">
+     <string>Leeeeee</string>
+    </void>
+    <void property="lastName">
+     <string>Hdddddd</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN2222222</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Employee">
+    <void property="birthday">
+     <string>18-12-1993</string>
+    </void>
+    <void property="employmentDate">
+     <string>11-07-2017</string>
+    </void>
+    <void property="firstName">
+     <string>Hryhory</string>
+    </void>
+    <void property="lastName">
+     <string>Hrushak</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN7456543</string>
+    </void>
+    <void property="wage">
+     <double>600.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Employee">
+    <void property="birthday">
+     <string>12-05-1989</string>
+    </void>
+    <void property="employmentDate">
+     <string>12-05-2017</string>
+    </void>
+    <void property="firstName">
+     <string>Alex</string>
+    </void>
+    <void property="lastName">
+     <string>Ivanenko</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN1236262</string>
+    </void>
+    <void property="wage">
+     <double>450.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Employee">
+    <void property="birthday">
+     <string>12-12-1990</string>
+    </void>
+    <void property="employmentDate">
+     <string>12-12-2000</string>
+    </void>
+    <void property="firstName">
+     <string>Kddddddd</string>
+    </void>
+    <void property="lastName">
+     <string>Koooo</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN1234567</string>
+    </void>
+    <void property="wage">
+     <double>2000.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Employee">
+    <void property="birthday">
+     <string>14-06-1976</string>
+    </void>
+    <void property="employmentDate">
+     <string>13-06-2017</string>
+    </void>
+    <void property="firstName">
+     <string>Anastasia</string>
+    </void>
+    <void property="lastName">
+     <string>Pashko</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN1432365</string>
+    </void>
+    <void property="wage">
+     <double>500.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.academy.max.Individual_HT.Student">
+    <void property="birthday">
+     <string>30-05-1977</string>
+    </void>
+    <void property="firstName">
+     <string>Vasyl</string>
+    </void>
+    <void property="lastName">
+     <string>Yavorsky</string>
+    </void>
+    <void property="taxNumber">
+     <string>TN1533265</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

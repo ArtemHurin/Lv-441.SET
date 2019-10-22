@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="accaaed2-ef9f-403d-beef-20f4e4574716" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="203" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RbO7IR4TfGrrqWp0qlOXSTaBdc" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.academy.max.Individual_HT" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.academy.max.Individual_HT" />
+      <recent name="com.academy.max.N7_Regex.hw7_1_String_contains_string" />
+      <recent name="com.academy.max.N7_Regex.hw7_3_Currency" />
+      <recent name="com.academy.max.N7_Regex.hw7_2_remove_spaces" />
+      <recent name="com.academy.max.N6_GenericCollections.hw6_5" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.PersonTest.testCalculateDateInDateFormat">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.Individual_HT.Main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.Individual_HT.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.N7_Regex.hw7_1_String_contains_string.Main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.N7_Regex.hw7_1_String_contains_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.N7_Regex.hw7_1_five_words.Main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.N7_Regex.hw7_1_five_words.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.OOP.hw3_2.Main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.OOP.hw3_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.Conditions.hw2_7.Main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.Conditions.hw2_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.Conditions.hw2_5.Main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.Conditions.hw2_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="regex_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.N7_Regex.hw7_3_UserName_Verification.regex_main" />
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.N7_Regex.hw7_3_UserName_Verification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testCalculateAge" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.Individual_HT.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.academy.max.Individual_HT" />
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.Individual_HT.Tests.PersonTest" />
+      <option name="METHOD_NAME" value="testCalculateAge" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testCalculateDateInDateFormat" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SET_Studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.academy.max.Individual_HT.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.academy.max.Individual_HT.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.academy.max.Individual_HT.Tests.PersonTest" />
+      <option name="METHOD_NAME" value="testCalculateDateInDateFormat" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.regex_main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.PersonTest.testCalculateAge" />
+      <item itemvalue="TestNG.PersonTest.testCalculateDateInDateFormat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PersonTest.testCalculateDateInDateFormat" />
+        <item itemvalue="TestNG.PersonTest.testCalculateAge" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.regex_main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="accaaed2-ef9f-403d-beef-20f4e4574716" name="Default Changelist" comment="" />
+      <created>1569932159104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569932159104</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SET_Studies$Main__3_.ic" NAME="Main (3) Coverage Results" MODIFIED="1570126446792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.academy.max.hw2_5.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SET_Studies$Main__4_.ic" NAME="Main (4) Coverage Results" MODIFIED="1571408618569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.academy.max.Individual_HT.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+Student : Akunenko Mariya 	  Born: 12-05-1985    Age: 34    Tax Number: TN1236262   
+Employee: Avramenko Iryna 	  Born: 03-03-1975    Age: 44    Tax Number: TN7464532    Employment Date: 13-06-2018    Wage: 700.000000 
+Employee: Fedoryshyn Roman 	  Born: 23-03-1990    Age: 29    Tax Number: TN7365257    Employment Date: 13-06-2018    Wage: 1500.000000 
+Student : Hdddddd Leeeeee 	  Born: 12-12-2000    Age: 19    Tax Number: TN2222222   
+Employee: Hrushak Hryhory 	  Born: 18-12-1993    Age: 26    Tax Number: TN7456543    Employment Date: 11-07-2017    Wage: 600.000000 
+Employee: Ivanenko Alex 	  Born: 12-05-1989    Age: 30    Tax Number: TN1236262    Employment Date: 12-05-2017    Wage: 450.000000 
+Employee: Koooo Kddddddd 	  Born: 12-12-1990    Age: 29    Tax Number: TN1234567    Employment Date: 12-12-2000    Wage: 2000.000000 
+Employee: Pashko Anastasia 	  Born: 14-06-1976    Age: 43    Tax Number: TN1432365    Employment Date: 13-06-2017    Wage: 500.000000 
+Student : Yavorsky Vasyl 	  Born: 30-05-1977    Age: 42    Tax Number: TN1533265   
